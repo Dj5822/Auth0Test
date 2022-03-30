@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for auth0 testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3001 node -r esm ./server.js",
+    "production": "cross-env NODE_ENV=production PORT=3000 node -r esm ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UOA-CS732-SE750-Students-2022/assignment-01-Dj5822.git"
+  },
+  "author": "Dj5822",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UOA-CS732-SE750-Students-2022/assignment-01-Dj5822/issues"
+  },
+  "homepage": "https://github.com/UOA-CS732-SE750-Students-2022/assignment-01-Dj5822#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "esm": "^3.2.25"
+  }
+}
