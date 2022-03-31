@@ -7,6 +7,8 @@ const AuthenticationPage = () => {
     const {loginWithRedirect} = useAuth0();
 
     return (<div>
+        Not authenticated. 
+        Login is required.
         <Button onClick={() => loginWithRedirect()} >login</Button>
     </div>)
 }
