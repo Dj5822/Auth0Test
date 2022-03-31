@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button, Typography } from '@mui/material';
 import { useAuth0 } from "@auth0/auth0-react";
 import classes from "./Homepage.module.css";
 
@@ -15,9 +15,9 @@ const Homepage = () => {
     // Renders the homepage.
     return (
         <div className={classes.container}>
-            {JSON.stringify(user)}
-            This is the homepage.
-            <Button variant="contained" onClick={() => logoutWithRedirect()}>Logout</Button>
+            <Typography variant="h3">Homepage</Typography>
+            <Typography sx={{mt: 3}}>{JSON.stringify(user)}</Typography>
+            <Button variant="contained" onClick={() => logoutWithRedirect()} sx={{mt: 3}}>Logout</Button>
         </div>
     );
 }

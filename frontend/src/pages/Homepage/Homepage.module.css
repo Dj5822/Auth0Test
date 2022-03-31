@@ -6,4 +6,5 @@
     text-align: center;
     padding: calc(4 * 8px);
     border-radius: 8px;
+    overflow-wrap: break-word;
 }
