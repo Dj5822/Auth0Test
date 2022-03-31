@@ -7,6 +7,9 @@ I will be exploring the Auth0 library.
 Prepare a demo of Auth0 or a similar library, showing how developers can get started with the library, 
 along with identity management and important features such as single sign-on.
 
+1) First, developers should watch the videos and/or read the documentation: https://auth0.com/docs/videos/get-started-series
+This allows developers to get an idea about how auth0 works in general.
+
 The submission of the assignment is as follows:
 - The main branch of your GitHub repo, as of the due date on this Canvas assignment page, will serve as your code submission.
 - DO NOT commit your node_modules folder, or any build files. These should be appropriately .gitignore'd. 
