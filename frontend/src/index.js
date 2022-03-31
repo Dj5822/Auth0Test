@@ -4,9 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { Auth0Provider } from "@auth0/auth0-react";
+import config from './auth_config.json';
+
+const providerConfig = {
+  domain: config.domain,
+  clientId: config.clientId,
+  redirectUri: window.location.origin
+};
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Auth0Provider {...providerConfig}>
+      <App />
+    </Auth0Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
