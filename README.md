@@ -4,10 +4,12 @@ assignment-01-Dj5822 created by GitHub Classroom
 ## How to run the project
 Change directory to backend, 
 run: npm install
+
 npm start
 
 Change directory to frontend,
 run: npm install
+
 npm start
 
 The app should work.
