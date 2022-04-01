@@ -16,7 +16,7 @@ npm install
 
 npm start
 
-The app should work. Alternatively, just run the frontend. This will cause the message panel to not work though.
+The app should work. Alternatively, just run the frontend. This will cause the 'API TEST' button to not work though.
 
 ## How developers can get started with the Auth0 library
 The quickstart guide specifies how to get started with Auth0.
