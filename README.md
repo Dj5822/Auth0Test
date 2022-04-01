@@ -1,5 +1,6 @@
 # assignment-01-Dj5822
-assignment-01-Dj5822 created by GitHub Classroom
+assignment-01-Dj5822 created by GitHub Classroom.
+In this assignment we explore the Auth0 authentication library.
 
 ## How to run the project
 Change directory to backend, 
