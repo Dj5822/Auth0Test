@@ -38,7 +38,7 @@ Allowed logout URLs: This is so that we can go back to http://localhost:3000 aft
 
 Allowed web origins: This is so that the authentication token is silently refreshed such that we don’t have to login every time the user visits the application.
 
-Next, install the auth0 using the following command from the frontend folder:
+Next, install auth0 using the following command from the frontend folder:
 npm install @auth0/auth0-react
 
 Once you have that dependency installed, then you can create an Auth0Provider and use it to wrap the entire application. I chose to create this component in the index.js file. 
