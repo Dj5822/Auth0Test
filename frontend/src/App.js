@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Homepage from './pages/Homepage/Homepage';
 import AuthenticationPage from './pages/AuthenticationPage/AuthenticationPage';
-import Loading from './components/Loading'
+import Loading from './components/Loading/Loading'
 import PageLayout from './layout/PageLayout';
 import { useAuth0 } from "@auth0/auth0-react";
 

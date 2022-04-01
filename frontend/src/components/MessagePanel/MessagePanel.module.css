@@ -1,0 +1,16 @@
+.container {
+    background-color: #2c2e3f;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: calc(4 * 8px);
+    border-radius: 8px;
+    overflow-wrap: break-word;
+    margin-bottom: 16px;
+}
+
+.userDetailsPanel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
