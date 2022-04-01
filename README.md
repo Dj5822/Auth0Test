@@ -1,7 +1,18 @@
 # assignment-01-Dj5822
 assignment-01-Dj5822 created by GitHub Classroom
 
-## How developers can get started with the library
+## How to run the project
+Change directory to backend, 
+run: npm install
+npm start
+
+Change directory to frontend,
+run: npm install
+npm start
+
+The app should work.
+
+## How developers can get started with the Auth0 library
 The quickstart guide specifies how to get started with Auth0.
 
 First, you need to create an Auth0 account.
