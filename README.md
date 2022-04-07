@@ -64,8 +64,26 @@ We can add social logins by going to Authentication → Social → Create Connec
 
 ## Multi factor authentication
 We can enable multi factor authentication by going to security → Multi-factor Authentication
-Customising the Auth0 login page
+
+## Customising the Auth0 login page
 To customise the login page, we can go to Branding → Universal Login. We can also change the authentication url to a custom one by going to Branding → Custom Domains.
+
+## Calling APIs
+If we press the ‘API TEST’ button, then we get a response.
+
+In order for this to work, you first have to create an API in auth0.
+
+Next, in the frontend you need to do two thing:
+1) You need to configure the Auth0Provider so it has the audience field.
+2) Before calling an API, you need to get the access token by calling getAccessTokenSilently() and then you need to send the access token as a bearer token in the authorization header.
+
+Now that the frontend is sending the right information, we need to configure the backend. We need to do the following:
+1) Install and import express-jwt and jwks-rsa.
+2) Setup the jwt checking middleware
+3) Use the jwt middleware in the API endpoints that you want to have authentication for.
+
+Now, when the frontend calls the endpoint, it will check whether the client is authorised before sending back the corresponding response.
+
 
 ## Submission Instructions
 The submission of the assignment is as follows:
