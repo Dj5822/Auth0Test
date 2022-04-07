@@ -3,6 +3,12 @@ assignment-01-Dj5822 created by GitHub Classroom.
 In this assignment we explore the Auth0 authentication library.
 
 ## How to run the project
+First make sure, that npm is installed on your machine.
+
+Next clone the reposititory.
+
+Navigate to the directory for the repository that you just cloned.
+
 Change directory to backend, 
 run: 
 
