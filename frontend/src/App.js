@@ -24,7 +24,7 @@ function App() {
           <Route path="/" element={<PageLayout />}>
             <Route index element={<Navigate to={isAuthenticated ? "/home" : "/auth"} />} />
             <Route path="auth" element={<AuthenticationPage />} />
-            <Route path="home" element={isAuthenticated ? <Homepage /> : <Navigate to="/auth" />} />
+            <Route path="home" element={<Homepage />} />
             <Route path="*" element={<div>Page not found.</div>} />
           </Route>
         </Routes>
