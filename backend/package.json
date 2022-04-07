@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/UOA-CS732-SE750-Students-2022/assignment-01-Dj5822#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "jwks-rsa": "^2.0.5"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
