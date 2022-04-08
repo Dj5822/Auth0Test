@@ -3,6 +3,7 @@ import React from "react";
 import classes from "./Loading.module.css";
 
 const Loading = () => {
+  // Renders the loading screen.
   return (
     <div className={classes.background} >
       <CircularProgress size={120} />

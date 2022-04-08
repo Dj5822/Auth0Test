@@ -27,6 +27,10 @@ const MessagePanel = () => {
         
     }
 
+    /*
+    Renders the message panel, which is used to make
+    an authorized API call to the backend.
+    */
     return (
     <div className={classes.container} >
         <Typography variant="h3">API Test</Typography>
